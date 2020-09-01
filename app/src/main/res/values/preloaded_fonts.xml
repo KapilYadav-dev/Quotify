@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/baloo</item>
+        <item>@font/croissant_one</item>
+        <item>@font/delius_unicase_bold</item>
+        <item>@font/gabriela</item>
+        <item>@font/kavoon</item>
+        <item>@font/muli_light</item>
+        <item>@font/roboto_slab_thin</item>
+        <item>@font/unica_one</item>
+    </array>
+</resources>

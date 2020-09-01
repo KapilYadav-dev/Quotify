@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_height="320dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#232323"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#000">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:screenOrientation="portrait"
+                    android:layout_width="wrap_content"
+                    android:drawableStart="@drawable/quote_text"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:shadowColor="#000000"
+                    android:textAlignment="center"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/gabriela"
+                    android:text="Quote_Text"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </ScrollView>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/delete"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_new"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

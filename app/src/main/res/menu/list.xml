@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/ic_heart"
+        android:title="Like"
+        android:iconTint="#D50000"/>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:checked="true"
+        android:iconTint="#0091EA"/>
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_clear_24dp"
+        android:title="More"
+        android:iconTint="#234"/>
+</menu>

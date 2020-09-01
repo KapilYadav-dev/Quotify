@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#000"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/gabriela"
+                    android:screenOrientation="portrait"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.5"
+                    android:shadowRadius="2"
+                    android:text="Quote_Text"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/click"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/scrollView"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/click" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22530518632",
+    "firebase_url": "https://quotify-25f32.firebaseio.com",
+    "project_id": "quotify-25f32",
+    "storage_bucket": "quotify-25f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22530518632:android:c1c5c62e68a2dcf778d5dd",
+        "android_client_info": {
+          "package_name": "com.dc.quotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22530518632-st3ds8dhi5b9cq2s8qij7isuji6j3g11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dc.quotify",
+            "certificate_hash": "6f020283228011522906a8f01f065fded2a7cfda"
+          }
+        },
+        {
+          "client_id": "22530518632-0dqi0klls0cvn90o9df0pa2fb3p1uh52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyCT6aHMrGL1chfa2-ZaFOPbW62r6SeVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22530518632-0dqi0klls0cvn90o9df0pa2fb3p1uh52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    app:cardCornerRadius="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:background="#234"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="475dp"
+        android:background="#234"
+        android:padding="5dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/close_diag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:fontFamily="@font/delius_unicase_bold"
+                android:textSize="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="end"
+                android:textColor="#fff"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/update"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please update App"
+                android:textSize="22dp"
+                android:fontFamily="@font/delius_unicase_bold"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="Updating app is necessary for using app"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:fontFamily="@font/acme"
+            android:text="Update"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bt_shape"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

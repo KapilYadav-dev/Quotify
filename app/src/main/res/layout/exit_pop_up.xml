@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#234"
+    android:padding="5dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#232323">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/exit" />
+
+        <LinearLayout
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gif"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/yes"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/curved_shape"
+                android:backgroundTint="#F6F7FE"
+                android:fontFamily="@font/croissant_one"
+                android:text="Yes"
+                android:textColor="#000000"
+                android:textSize="26dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/no"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/curved_shape"
+                android:backgroundTint="#D50000"
+                android:fontFamily="@font/croissant_one"
+                android:text="No"
+                android:textColor="#fff"
+                android:textSize="26dp" />
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            ads:adSize="320x200"
+            ads:adUnitId="@string/banner_id"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
